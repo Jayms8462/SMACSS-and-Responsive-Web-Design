@@ -1,0 +1,180 @@
+body {
+    background-color: grey;
+    text-align: center;
+}
+main {
+    max-width: 960px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.a {
+    height: 100px;
+    max-width: inherit;
+    width: 100%;
+    background-color: yellow;
+    margin-left: inherit;
+    margin-right: inherit;
+}
+.b {
+    height: 600px;
+    max-width: 200px;
+    width: 100%;
+    background-color: blue;
+    margin-left: inherit;
+    margin-right: inherit;
+    float: left;
+}
+.c {
+    height: 200px;
+    max-width: 380px;
+    width: 100%;
+    background-color: red;
+    margin-left: inherit;
+    margin-right: inherit;
+    float: left;
+}
+.d {
+    height: 200px;
+    max-width: 380px;
+    width: 100%;
+    background-color: lightyellow;
+    margin-left: inherit;
+    margin-right: inherit;
+    float: left;
+}
+.e {
+    height: 250px;
+    max-width: 190px;
+    width: 100%;
+    background-color: red;
+    margin-left: inherit;
+    margin-right: inherit;
+    float: left;
+}
+.f {
+    height: 250px;
+    max-width: 190px;
+    width: 100%;
+    background-color: pink;
+    margin-left: inherit;
+    margin-right: inherit;
+    float: left;
+}
+.g {
+    height: 250px;
+    max-width: 190px;
+    width: 100%;
+    background-color: purple;
+    margin-left: inherit;
+    margin-right: inherit;
+    float: left;
+}
+.h {
+    height: 250px;
+    max-width: 190px;
+    width: 100%;
+    background-color: gold;
+    margin-left: inherit;
+    margin-right: inherit;
+    float: left;
+}
+.i {
+    height: 150px;
+    max-width: 760px;
+    width: 100%;
+    background-color: red;
+    margin-left: inherit;
+    margin-right: inherit;
+    float: left; 
+}
+
+@media only screen and (max-width: 767px){
+    body {
+        background-color: green;
+        text-align: center;
+    }
+    main {
+        max-width: 480px;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .a {
+        height: 75px;
+        max-width: inherit;
+        width: 100%;
+        background-color: yellow;
+        margin-left: inherit;
+        margin-right: inherit;
+    }
+    .b {
+        height: 150px;
+        max-width: inherit;
+        width: 100%;
+        background-color: blue;
+        margin-left: inherit;
+        margin-right: inherit;
+    }
+    .c {
+        height: 125px;
+        max-width: inherit;
+        width: 100%;
+        background-color: red;
+        margin-left: inherit;
+        margin-right: inherit;
+    }
+    .d {
+        height: 125px;
+        max-width: inherit;
+        width: 100%;
+        background-color: lightyellow;
+        margin-left: inherit;
+        margin-right: inherit;
+    }
+    .e {
+        height: 250px;
+        max-width: 240px;
+        width: 100%;
+        background-color: red;
+        margin-left: inherit;
+        margin-right: inherit;
+        float: left;
+    }
+    .f {
+        height: 250px;
+        max-width: 240px;
+        width: 100%;
+        background-color: pink;
+        margin-left: inherit;
+        margin-right: inherit;
+        float: left;
+    }
+    .g {
+        height: 250px;
+        max-width: 240px;
+        width: 100%;
+        background-color: purple;
+        margin-left: inherit;
+        margin-right: inherit;
+        float: left;
+    }
+    .h {
+        height: 250px;
+        max-width: 240px;
+        width: 100%;
+        background-color: gold;
+        margin-left: inherit;
+        margin-right: inherit;
+        float: left;
+    }
+    .i {
+        height: 80px;
+        max-width: 480px;
+        width: 100%;
+        background-color: red;
+        margin-left: inherit;
+        margin-right: inherit;
+        float: left; 
+    }
+}
